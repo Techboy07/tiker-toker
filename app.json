@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow tikertoker to access your microphone."
+        }
+      ]
+    ],
     "name": "tikertoker",
     "slug": "tikertoker",
     "version": "1.0.0",
